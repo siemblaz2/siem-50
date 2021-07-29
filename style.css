@@ -1,0 +1,54 @@
+/* h1{
+    color :sienna;
+    background-color:burlywood;
+    padding:10px; 
+} */
+body{
+    background-color:lightgray;
+}
+.grid{
+    display:flex;
+    flex-wrap: wrap;
+}
+.origami{
+    background-color: white;
+    width:310px;
+    border-radius: 20px;
+    padding:10px;
+    margin:18px;
+}
+.origami img{
+    border:black 4px solid;
+    border-radius:40px;
+} 
+h3{
+    
+    color:crimson;
+}
+
+.bodyimg{
+    position:relative;
+}
+
+.bodyimg p{
+    position: absolute;
+    top:10%;
+    left:10%;
+    color:white;
+    font-family: Georgia;
+}
+
+.header{
+    display:flex;
+    background-color: black;
+    color:white;
+    justify-content: space-between;
+    padding:10px;
+}
+
+a:link{
+    color:white;
+}
+a:visited{
+    color:white;
+}
